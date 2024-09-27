@@ -36,7 +36,7 @@ header{
 }
 .logo{
     color: var(--text-color);
-    font-size: 41px;
+    font-size: 60px;
     font-weight: 600;
 }
 .logo span{
@@ -46,7 +46,7 @@ header{
     display: flex;
 }
 .navbar a{
-    font-size: var(--p-font);
+    font-size: 24px;
     font-weight: 500px;
     color: var(--text-color);
     margin: 0 80px;
@@ -67,7 +67,7 @@ header{
     margin: 0 100px;
 }
 #menu-icon{
-    font-size: 28px;
+    font-size: 25px;
     margin-left: 10px;
     z-index: 6;
 }
@@ -85,8 +85,8 @@ section{
     gap: 30px;
 }
 .home-img{
-    width: 1000px;
-    height: 1000px;
+    width: 1500px;
+    height: 1500px;
 }
 .home-img img{
     width: 100%;
@@ -109,14 +109,14 @@ section{
     margin: 15px 0;
 }
 .home-text p{
-    font-size: var(--p-font);
+    font-size: 30px;
     font-weight: 400;
     color: #ffffff;
     line-height: 30px;
     margin-bottom: 30px;
 }
 .home-text h6{
-    font-size: var(--p-font);
+    font-size: 45px;
     font-weight: 400;
     color: #ffffff;
     line-height: 30px;
@@ -128,7 +128,13 @@ section{
     color: #c3c3c3;
     line-height: 30px;
     margin-bottom: 0px;
-    
+}
+.home-text li{
+    font-size: 30px;
+    font-weight: 400;
+    color: #c3c3c3;
+    line-height: 30px;
+    margin-bottom: 0px;
 }
 .line{
     position: absolute;
@@ -249,13 +255,13 @@ section{
 }
 
 @media (max-width: 950px){
-    .share{
+    share{
         display: none;
     }
     section{
         padding: 70px 4%;
     }
-    header{
+    .header{
         padding: 11px 4%;
         background: #2d2d2d
     }
