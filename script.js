@@ -20,9 +20,12 @@ sr.reveal('.home-text span',{delay:600, origin: 'top'})
 sr.reveal('.home-text h5',{delay:680, origin: 'left'})
 sr.reveal('.home-text p',{delay:750, origin: 'right'})
 sr.reveal('.main-btn',{delay:860, origin: 'left'})
+sr.reveal('.home-text li',{delay:750, origin: 'right'})
+sr.reveal('.home-text ul',{delay:750, origin: 'right'})
+sr.reveal('.home-text h6',{delay:750, origin: 'right'})
 
 
-
-sr.reveal('.share',{delay:950, origin: 'bottom'})
 
 sr.reveal('.home-img',{delay:1000, origin: 'right'})
+
+

@@ -154,7 +154,7 @@ section{
     background: var(--main-color);
     color: var(--text-color);
     border: 2px solid var(--main-color);
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
     border-radius: 8px;
     transition: all 0.6s ease-in-out;
@@ -178,14 +178,14 @@ section{
     border: 2px solid var(--text-color);
 }
 .share{
-    position: absolute;
+    position: bottom;
     bottom: 3rem;
     left: 15%;
     display: flex;
     align-items: center;
 }
 .share p{
-    font-size: 17px;
+    font-size: 25px;
     color: var(--text-color);
     margin-right: 25px;
 }
@@ -200,8 +200,8 @@ section{
     border: 1px solid #3b3b3b;
     border-radius: 50%;
     color: var(--text-color);
-    font-size: 0 7px;
-    transition: all 0.6s ease-in-out;
+    font-size: 20px;
+    position: center;
 } 
 .social i:hover{
     transform: translateY(-10px);
