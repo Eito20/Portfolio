@@ -28,4 +28,9 @@ sr.reveal('.home-text h6',{delay:750, origin: 'right'})
 
 sr.reveal('.home-img',{delay:1000, origin: 'right'})
 
+document.getElementById('menu-btn').addEventListener('click', function() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('open'); // Alterna a classe que abre o menu
+});
+
 

@@ -20,6 +20,11 @@
     <header>
         <a href="#" class="logo"><span>H</span>eitor</a>
 
+        <div class="menu-btn d-md-none" id="menu-btn">
+            <span>MENU</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+
      <nav>
         <ul class="navbar">
             <li><a href="index.html">Início</a></li>
@@ -57,11 +62,22 @@
             <li>Desejo integrar uma equipe em que eu possa desenvolver minhas habilidades, aprender com os desafios do mercado e trazer valor ao ambiente de trabalho.</li>
     </ul>
     </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--Custom js file link-->
         <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('d-none'); // Alterna a classe que esconde o menu
+        });
+    </script>
 
 </body>
 </html>
